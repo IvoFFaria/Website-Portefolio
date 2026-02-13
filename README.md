@@ -1,208 +1,118 @@
-# \# 👨‍💻 Ivo Faria — CV \& Portfolio Website
+# 👨‍💼 Ivo Faria — Website Profissional & Portefólio
 
-# 
+Este repositório contém o código-fonte do meu **website profissional**, concebido como uma plataforma central para apresentação do meu percurso, competências técnicas e evolução contínua na área das Tecnologias de Informação.
 
-# Este repositório contém o código do meu \*\*website pessoal de CV e portfólio\*\*, desenvolvido para apresentar de forma moderna e interativa o meu percurso, competências e projetos na área de tecnologia.
+🌐 **Website:** [https://ivo-faria.pt](https://ivo-faria.pt)
 
-# 
+---
 
-# 🌐 \*\*Website online:\*\* \[https://ivo-faria.pt](https://ivo-faria.pt)
+## 🎯 Enquadramento
 
-# 
+Este projeto surge da necessidade de ir além do currículo tradicional em PDF, adotando uma abordagem mais clara, objetiva e alinhada com as práticas reais do setor tecnológico.
 
-# ---
+O website funciona como:
 
-# 
+* CV digital profissional
+* Portefólio técnico em evolução
+* Ponto central de contacto e apresentação
 
-# \## 🚀 Sobre o Projeto
+Foi desenvolvido com foco em **clareza, desempenho e manutenção**, evitando complexidade desnecessária e soluções artificiais.
 
-# 
+---
 
-# Este site foi desenvolvido como parte da minha evolução enquanto profissional de IT, com foco em:
+## 🧠 Princípios do Projeto
 
-# 
+* Estrutura simples e sustentável
+* Código organizado e legível
+* Design funcional antes de estético
+* Preparado para crescimento incremental
 
-# \* Presença online profissional
+A prioridade não é impressionar visualmente, mas **representar competências reais com rigor**.
 
-# \* Demonstração de competências técnicas
+---
 
-# \* Apresentação clara do meu percurso e objetivos
+## 🛠️ Stack Tecnológica
 
-# 
+### Frontend
 
-# O objetivo é servir como \*\*CV digital interativo\*\*, substituindo o currículo tradicional em PDF por uma experiência mais dinâmica.
+* React
+* JavaScript (ES6+)
+* Tailwind CSS
+* React Router
+* Lucide Icons
 
-# 
+### Ferramentas & Ambiente
 
-# ---
+* Node.js & npm
+* Git & GitHub
+* FileZilla (deploy)
+* InfinityFree (hosting)
 
-# 
+---
 
-# \## 🛠️ Tecnologias Utilizadas
+## 📁 Estrutura Geral do Projeto
 
-# 
+```
+frontend/
+ ├── public/          # Base HTML, favicon e meta
+ ├── src/
+ │   ├── components/  # Componentes e secções do site
+ │   ├── data/        # Conteúdo estruturado do CV
+ │   ├── assets/      # Recursos visuais
+ │   └── App.jsx
+ └── package.json
+```
 
-# \### Frontend
+---
 
-# 
+## ⚙️ Funcionalidades
 
-# \* \*\*React\*\*
+* Interface responsiva e consistente
+* Navegação clara por secções
+* Estrutura modular e extensível
+* Identidade visual própria
+* Preparado para integração futura de projetos e conteúdos técnicos
 
-# \* \*\*JavaScript (ES6+)\*\*
+---
 
-# \* \*\*Tailwind CSS\*\*
+## 🎓 Perfil Profissional
 
-# \* \*\*React Router\*\*
+Atualmente em formação na área de **Tecnologias e Programação de Sistemas de Informação**, com interesse prático em:
 
-# \* \*\*Lucide Icons\*\*
+* Desenvolvimento Web
+* Frontend (React)
+* Sistemas de Informação
+* Bases de Dados
 
-# 
+Procuro oportunidades onde possa **consolidar fundamentos técnicos**, evoluir profissionalmente e acrescentar valor real às equipas e projetos.
 
-# \### Ferramentas
+---
 
-# 
+## ▶️ Execução Local
 
-# \* Node.js \& npm
+```bash
+cd frontend
+npm install
+npm start
+```
 
-# \* Git \& GitHub
+Build de produção:
 
-# \* FileZilla (deploy)
+```bash
+npm run build
+```
 
-# \* InfinityFree (hosting)
+---
 
-# 
+## 📬 Contacto
 
-# ---
+🌐 [https://ivo-faria.pt](https://ivo-faria.pt)
+📧 Email profissional disponível mediante contacto
+💼 LinkedIn: (a adicionar)
 
-# 
+---
 
-# \## 📂 Estrutura do Projeto
+## Nota Final
 
-# 
-
-# ```
-
-# frontend/
-
-# &nbsp;├── public/        # Ficheiros base (HTML, favicon, meta)
-
-# &nbsp;├── src/
-
-# &nbsp;│   ├── components/  # Secções do site (Header, Hero, Experience, etc.)
-
-# &nbsp;│   ├── data/        # Dados do CV (experiências, competências)
-
-# &nbsp;│   ├── assets/      # Imagens e logo
-
-# &nbsp;│   └── App.jsx
-
-# &nbsp;└── package.json
-
-# ```
-
-# 
-
-# ---
-
-# 
-
-# \## ✨ Funcionalidades
-
-# 
-
-# ✔️ Layout moderno e responsivo
-
-# ✔️ Navegação suave por secções
-
-# ✔️ Secção de experiência profissional interativa
-
-# ✔️ Design personalizado com identidade visual própria
-
-# ✔️ Preparado para ser expandido com portfólio de projetos
-
-# 
-
-# ---
-
-# 
-
-# \## 💼 Objetivo Profissional
-
-# 
-
-# Sou um profissional em formação na área de \*\*Tecnologias e Programação de Sistemas de Informação\*\*, com interesse em:
-
-# 
-
-# \* Desenvolvimento Web
-
-# \* Frontend (React)
-
-# \* Bases de Dados
-
-# \* Sistemas de Informação
-
-# 
-
-# Procuro oportunidades onde possa crescer tecnicamente e contribuir para soluções digitais eficientes.
-
-# 
-
-# ---
-
-# 
-
-# \## 📦 Como executar localmente
-
-# 
-
-# ```bash
-
-# cd frontend
-
-# npm install
-
-# npm start
-
-# ```
-
-# 
-
-# Para gerar a versão de produção:
-
-# 
-
-# ```bash
-
-# npm run build
-
-# ```
-
-# 
-
-# ---
-
-# 
-
-# \## 📬 Contacto
-
-# 
-
-# 📧 (adiciona aqui o teu email profissional)
-
-# 🌐 \[https://ivo-faria.pt](https://ivo-faria.pt)
-
-# 💼 LinkedIn: (adiciona aqui depois)
-
-# 
-
-# ---
-
-# 
-
-# ⭐ Se visitaste o repositório, fica à vontade para explorar o código.
-
-# Este projeto representa o meu crescimento contínuo na área tecnológica.
-
-
-
+Este repositório representa trabalho real, evolução progressiva e aprendizagem contínua.
+Não é um projeto estático — é uma base sólida para crescimento profissional.
